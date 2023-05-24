@@ -51,6 +51,10 @@ export default function Home(){
           <p>Coração do React, é baseado na criação de componentes</p>
           <a href="/components"><button>Ir para os componentes</button></a>
 
+          <h1>Página de Exercicios</h1>
+
+          <a href="/exercicios"><button>Ir para a Página de Exercicios</button></a>
+
 
 
 

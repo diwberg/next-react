@@ -1,6 +1,7 @@
 import Titulo from '../components/Titulo'
 import styled from 'styled-components'
 
+
 export default function componentes(){
     const Button = styled.button`
     
@@ -14,9 +15,14 @@ export default function componentes(){
         <Titulo 
         titulo='Bom dia' 
         subtitulo='Seja bem-vindo'
-        bomdia = {false}
+        bomdia = {true}
         />
-        <a href="/primeiro">Voltar</a>
+
+        <hr />
+
+        <h3>Componentes de Estilização</h3>
+
+        <a href="/primeiro"><Button> Voltar</Button></a>
         </>
     )
 }
