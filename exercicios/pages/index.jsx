@@ -15,7 +15,11 @@ export default function Home(){
   const tags = <h3>Esse H3 foi impresso por JavaScript. Mas escrito por JSX</h3>
 
   return (
-      <div>
+      <div style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center"
+      }}>
           <h1>Componentizaçao de JSX</h1>
           <h2>Revisão da componentização, vou utilizar apenas uma página para demonstração de todo o resultado</h2>
           
@@ -47,6 +51,12 @@ export default function Home(){
           <hr />
 
 
+          <h3>Teste com inputs</h3>
+          <input type="number" /><br />
+          <input type="numer" /><br />
+          <input type="button" value="Enviar" />
+
+
           <h1 className="center">Componentes: </h1>
           <p>Coração do React, é baseado na criação de componentes</p>
           <a href="/components"><button>Ir para os componentes</button></a>
@@ -55,15 +65,30 @@ export default function Home(){
 
           <a href="/exercicios"><button>Ir para a Página de Exercicios</button></a>
 
+            <span style={{
+                display: "block",
+                width: "100%",
+                background: "grey",
+                display: "flex",
+                justifyContent: "center",
+                fontSize: "30px",
+                fontWeight: "bold",
+                padding: "5px",
+                margin: "15px"
+            }}>A PARTIR DESSE PONTO, É TUDO SOBRE O NEXTJS</span>
 
 
+          <h1>Rotas dinamicas:</h1>
+          <a href="/rotas"><button style={{
+            background: "black",
+            color: "white",
+            border: "0",
+            padding: "30px",
+            fontSize: "32px",
+            fontWeight: "bold",
 
+          }}>Rotas</button></a>
 
-          <h3>Teste com inputs</h3>
-          <input type="number" /><br />
-          <input type="numer" /><br />
-          <input type="button" value="Enviar" />
-          <hr />
           
       </div>
 

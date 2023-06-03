@@ -12,7 +12,6 @@ export default function Contador(){
 
     return (
         <div style={{
-            flex: 1, 
             backgroundColor: "black",
             color: "white"
             }}>
